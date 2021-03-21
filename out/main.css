@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  background-color: #252525;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+.container {
+  background-color: #EFD592;
+  padding: 20px 20px;
+  display: flex;
+  /*align-items: stretch;*/
+  gap: 40px;
+}
+.container .hamburger {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #242D38;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.container .hamburger div {
+  position: relative;
+  height: 6px;
+  width: 50%;
+  background-color: #EFD592;
+}
+.container .rectangle {
+  background-color: #242D38;
+  min-width: 50%;
+  /*height: 100%;*/
+}
+.container .box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-self: stretch;
+}
+.container .box h1 {
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=main.css.map */
